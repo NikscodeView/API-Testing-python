@@ -1,41 +1,40 @@
-# pytest-scenarios
+# API Testing
+
+## Getting started :
 The repository uses pytest as the test writing library for different scenarios using vscode as the IDE
-
-Set up pytest in VS code
-
-Getting started :
+Set up pytest in VS code.
 
 ## Prerequisites
 Before we set up Pytest in VS Code, you need to install the below prerequisites in your operating system,
 * VS Code 
 * Python
 
-# Setting Up Pytest In VS Code
+## Setting Up Pytest In VS Code
 To set up Pytest in VS Code, follow the steps described below
 Pip3 install pytest
 Pip3 show pytest to check the version
 
-# Step 1 - Install Python Extension in VS Code
+## Step 1 - Install Python Extension in VS Code
 Open your VS Code and search for Python on the extensions. You’ll find the Python extension at the top of the search result. Select and click install.
 This allows to work with python interact within VSCode and utilize Github copilot as an agent.
 
-# Configure pytest
+## Configure pytest
 Now the Python extension installation will automatically install Pytest on your environment. All you need to do is just configure Pytest. Follow the below steps to configure Pytest.
 Click the flask icon on the left tool bar. You can find this once you open a repository that contains Python unit tests.
 Now click on “Configure Python Tests”, select pytest and the test code library
 
 After configuring Pytest, VS Code will automatically discover your Unit Tests. You can customise which folder to look for tests in the settings under "python.testing.cwd" parameter in the .vscode/settings.json file.
-# install requests
+## install requests
 * To download and install requests, run this command from the terminal : pip install requests
   
-# Set up virtual environment
+## Set up virtual environment
 Pytest works best in virtual environments when using in VSCode. A virtual environment  is a built-in way to create an environment. A virtual environment creates a folder that contains a copy (or symlink) to a specific interpreter. When you install packages into a virtual environment it will end up in this new folder, and thus isolated from other packages used by other workspaces.
 Working in virtual environments-
 Pyenv is a library to work with different python environments-
 	brew install pyenv
 	pyenv install 3.13
 
-# Add libraries to be used in the package to requirements.txt :
+## Add libraries to be used in the package to requirements.txt :
 Set up requirements.txt for required packages
 	pydantic- For  contract tests
 	requests - To get data from APIs
@@ -47,6 +46,6 @@ Set up requirements.txt for required packages
 
 *  pip install -r requirements.txt
 
-# Report view in VScode in TEST RESULTS :
+## Report view in VScode in TEST RESULTS :
 
 

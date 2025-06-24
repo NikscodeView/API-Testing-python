@@ -5,7 +5,7 @@ Set up pytest in VS code
 
 Getting started :
 
-# Prerequisites
+## Prerequisites
 Before we set up Pytest in VS Code, you need to install the below prerequisites in your operating system,
 * VS Code 
 * Python

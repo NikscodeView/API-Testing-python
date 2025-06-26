@@ -23,31 +23,33 @@ This allows to work with python interact within VSCode and utilize Github copilo
 Now the Python extension installation will automatically install Pytest on your environment. All you need to do is just configure Pytest. Follow the below steps to configure Pytest.
 Click the flask icon on the left tool bar. You can find this once you open a repository that contains Python unit tests.
 Now click on “Configure Python Tests”, select pytest and the test code library
-
 After configuring Pytest, VS Code will automatically discover your Unit Tests. You can customise which folder to look for tests in the settings under "python.testing.cwd" parameter in the .vscode/settings.json file.
+
 ## Installing requests
   * To download and install requests, run this command from the terminal : pip install requests
   
 ## Settting up virtual environment
-Pytest works best in virtual environments when using in VSCode. A virtual environment  is a built-in way to create an environment. A virtual environment creates a folder that contains a copy (or symlink) to a specific interpreter. When you install packages into a virtual environment it will end up in this new folder, and thus isolated from other packages used by other workspaces.
+Pytest is particularly effective in virtual environments when VSCode is utilized. A virtual environment is a way to create an environment that is built-in. A folder is created by a virtual environment that contains a copy to a specific interpreter. Installing packages in a virtual environment will result in a new folder that is isolated from other packages used by other workspaces.
 Working in virtual environments-
 Pyenv is a library to work with different python environments-
   * brew install pyenv
   * pyenv install 3.13
 
 ## Add libraries to be used in the package to requirements.txt :
-**Set up requirements.txt for required packages**
+**Set up requirements.txt for required packages** 
 
- 	* [pydantic](https://docs.pydantic.dev/latest/) - Data validation library for python 
-	* requests - To get data from APIs
-	* [pytest](https://docs.pytest.org/en/stable/) - python testing library
-	* jsonschema : 
-	* pytest-html:
-	* pytest-cov:
-	* pre-commit:
+  * [pydantic](https://docs.pydantic.dev/latest/)  - Data validation library for python
+  * requests - To get data from APIs
+  * [pytest](https://docs.pytest.org/en/stable/) - python testing library
+  * jsonschema : to enable json structure for python
+  * pytest-html : plugin for pytest to generate HTML report for results
+  * pytest-cov : pytest plugin to render coverage reports.
+  * pre-commit : maange pre commit hooks
 
-*  pip install -r requirements.txt
+  To install the set up: pip install -r requirements.txt
 
 ## Report view in VScode in TEST RESULTS :
+The report view provides report after execution of tests in TEST RESULTS tab in VScode. The results are in html format using pytest-html format of report structure woth pytest-cov that gives stats on test execution and code coverage at the end of each run.
+
 
 

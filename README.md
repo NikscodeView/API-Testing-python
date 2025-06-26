@@ -38,9 +38,9 @@ Pyenv is a library to work with different python environments-
 ## Add libraries to be used in the package to requirements.txt :
 **Set up requirements.txt for required packages**
 
- 	* pydantic : https://docs.pydantic.dev/latest/ - Data validation library for python 
+ 	* [pydantic](https://docs.pydantic.dev/latest/) - Data validation library for python 
 	* requests - To get data from APIs
-	* pytest : https://docs.pytest.org/en/stable/ - python testing library
+	* [pytest](https://docs.pytest.org/en/stable/) - python testing library
 	* jsonschema : 
 	* pytest-html:
 	* pytest-cov:

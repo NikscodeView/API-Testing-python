@@ -22,8 +22,7 @@ This allows to work with python interact within VSCode and utilize Github copilo
 ## Configure pytest
 Now the Python extension installation will automatically install Pytest on your environment. All you need to do is just configure Pytest. Follow the below steps to configure Pytest.
 Click the flask icon on the left tool bar. You can find this once you open a repository that contains Python unit tests.
-Now click on “Configure Python Tests”, select pytest and the test code library
-After configuring Pytest, VS Code will automatically discover your Unit Tests. You can customise which folder to look for tests in the settings under "python.testing.cwd" parameter in the .vscode/settings.json file.
+Now click on “Configure Python Tests”, select pytest and the test code library. After configuring Pytest, VS Code will automatically discover your Unit Tests. 
 
 ## Installing requests
   * To download and install requests, run this command from the terminal : pip install requests

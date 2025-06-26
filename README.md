@@ -36,14 +36,16 @@ Pyenv is a library to work with different python environments-
   * pyenv install 3.13
 
 ## Add libraries to be used in the package to requirements.txt :
-Set up requirements.txt for required packages
-	pydantic : https://docs.pydantic.dev/latest/ - Data validation library for python 
- 	requests - To get data from APIs
-	pytest : https://docs.pytest.org/en/stable/ - python testing library
-	jsonschema 
-	pytest-html
-	pytest-cov
-	pre-commit
+**Set up requirements.txt for required packages**
+
+ 	* pydantic : https://docs.pydantic.dev/latest/ - Data validation library for python 
+	* requests - To get data from APIs
+	* pytest : https://docs.pytest.org/en/stable/ - python testing library
+	* jsonschema : 
+	* pytest-html:
+	* pytest-cov:
+	* pre-commit:
+
 *  pip install -r requirements.txt
 
 ## Report view in VScode in TEST RESULTS :

@@ -1,4 +1,5 @@
 # API Testing
+The projects includes API testing on different set of API testing achieved through different python libraries. The tests folder contains tests on unit tests, API tests, contract tests and security tests as essential testing areas of API testing.
 
 ## Getting started :
 The repository uses pytest as the test writing library for different scenarios using vscode as the IDE

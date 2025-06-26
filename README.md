@@ -42,8 +42,8 @@ Pyenv is a library to work with different python environments-
   * requests - To get data from APIs
   * [pytest](https://docs.pytest.org/en/stable/) - python testing library
   * jsonschema : to enable json structure for python
-  * pytest-html : plugin for pytest to generate HTML report for results
-  * pytest-cov : pytest plugin to render coverage reports.
+  * [pytest-html](https://pypi.org/project/pytest-html/) : plugin for pytest to generate HTML report for results
+  * [pytest-cov](https://pypi.org/project/pytest-cov/) : pytest plugin to render coverage reports.
   * pre-commit : maange pre commit hooks
 
   To install the set up: pip install -r requirements.txt

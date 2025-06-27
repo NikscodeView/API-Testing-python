@@ -1,5 +1,5 @@
 import pytest
-from utils.api_client import APIClient
+from util_lib.api_client import APIClient
 
 @pytest.fixture(scope="session")
 def base_url():

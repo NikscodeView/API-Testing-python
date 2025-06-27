@@ -1,4 +1,4 @@
-from utils.schemas import UserSchema
+from util_lib.schemas import UserSchema
 
 def test_user_schema(client):
     response = client.get("/getallmanufacturers?format=json")

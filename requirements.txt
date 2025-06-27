@@ -1,1 +1,7 @@
-
+pydantic
+requests
+pytest
+jsonschema
+pytest-html
+pytest-cov
+pre-commit

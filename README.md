@@ -13,8 +13,7 @@ Before we set up Pytest in VS Code, you need to install the below prerequisites 
 ## Setting Up Pytest In VS Code
 To set up Pytest in VS Code, follow the steps described below-
 Check the pip version installed and use the set up version to work with pytest - 
-  * Pip3 install pytest
-  * Pip3 show pytest : To check the version
+  * Pip install pytest
 
 ## Installing Python Extension in VS Code
 Open your VS Code and search for Python on the extensions. You’ll find the Python extension at the top of the search result. Select and click install.
@@ -31,9 +30,12 @@ Now click on “Configure Python Tests”, select pytest and the test code libra
 ## Settting up virtual environment
 Pytest is particularly effective in virtual environments when VSCode is utilized. A virtual environment is a way to create an environment that is built-in. A folder is created by a virtual environment that contains a copy to a specific interpreter. Installing packages in a virtual environment will result in a new folder that is isolated from other packages used by other workspaces.
 Working in virtual environments-
-Pyenv is a library to work with different python environments-
-  * brew install pyenv
-  * pyenv install 3.13
+open the Command Palette (⇧⌘P), search for the Python: Create Environment command, and select it
+
+![image](https://github.com/user-attachments/assets/3083643c-9b79-4188-9dfa-70d7f3f502b4)
+
+If you are creating an environment using Venv, the command presents a list of interpreters that can be used as a base for the new virtual environment.
+The Python: Select Interpreter command displays a list of available environments, select the virtual env
 
 ## Add libraries to be used in the package to requirements.txt :
 **Set up requirements.txt for required packages** 
@@ -46,7 +48,7 @@ Pyenv is a library to work with different python environments-
   * [pytest-cov](https://pypi.org/project/pytest-cov/) : pytest plugin to render coverage reports.
   * pre-commit : maange pre commit hooks
 
-  To install the set up: pip3 install -r requirements.txt
+  To install the set up: pip install -r requirements.txt
 
 ## Report view in VScode console TEST RESULTS :
 The report view provides report after execution of tests in TEST RESULTS tab in VScode. The results are in html format using pytest-html format of report structure woth pytest-cov that gives stats on test execution and code coverage at the end of each run.

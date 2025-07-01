@@ -51,7 +51,7 @@ The Python: Select Interpreter command displays a list of available environments
   To install the set up: pip install -r requirements.txt
 
 ## Report view in VScode console TEST RESULTS :
-The report view provides report after execution of tests in TEST RESULTS tab in VScode. The results are in html format using pytest-html format of report structure woth pytest-cov that gives stats on test execution and code coverage at the end of each run.
+The report view provides report after execution of tests in TEST RESULTS tab in VScode. The results are in html format using pytest-html format of report structure with pytest-cov that gives stats on test execution and code coverage at the end of each run.
 
 
 

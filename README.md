@@ -9,6 +9,7 @@ Set up pytest in VS code.
 Before we set up Pytest in VS Code, you need to install the below prerequisites in your operating system-
   * VS Code 
   * Python
+    Verify the python version and install pip version compatible.
 
 ## Setting Up Pytest In VS Code
 To set up Pytest in VS Code, follow the steps described below-
@@ -49,6 +50,7 @@ The Python: Select Interpreter command displays a list of available environments
   * pre-commit : maange pre commit hooks
 
   To install the set up: pip install -r requirements.txt
+  Install to virtual env if using that for the project
 
 ## Report view in VScode console TEST RESULTS :
 The report view provides report after execution of tests in TEST RESULTS tab in VScode. The results are in html format using pytest-html format of report structure with pytest-cov that gives stats on test execution and code coverage at the end of each run.
